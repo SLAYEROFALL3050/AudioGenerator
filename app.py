@@ -44,21 +44,23 @@ else:
     instructions = "Press enter to add more"
 
     genre = st_tags(
-            label = '# Enter Genre(s):',
+            label = 'Enter Genre(s):',
             text = instructions,
             suggestions = GENRE_TAGS,
             maxtags = MAX_TAGS,
             key = '1'
         )
+    
     mood = st_tags(
-            label = '# Enter Mood/Theme(s):',
+            label = 'Enter Mood/Theme(s):',
             text = instructions,
             suggestions = MOOD_TAGS,
             maxtags = MAX_TAGS,
             key = '2'
         )
+    
     instrument = st_tags(
-            label = '# Enter Instrument(s):',
+            label = 'Enter Instrument(s):',
             text = instructions,
             suggestions = INSTRUMENT_TAGS,
             maxtags = MAX_TAGS,
@@ -68,7 +70,5 @@ else:
     # SUBMIT TAGS
     if st.button("Submit Tags"):
         st.write("Tags are:")
-        # input = genre + ", " + mood + ", " + instrument
-        # input = input.split(", ")
         input = genre + mood + instrument
         st.write(str(input))
