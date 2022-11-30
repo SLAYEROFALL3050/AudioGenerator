@@ -1,5 +1,5 @@
 ---
-title: Fire Coml FALL 2022
+title: Music Generation using ML
 emoji: 🎶
 colorFrom: blue
 colorTo: orange
