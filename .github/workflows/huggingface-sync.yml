@@ -16,5 +16,5 @@ jobs:
       - name: Push to hub
         env:
           SYNC: ${{ secrets.SYNC }}
-        run: git push -f https://SLAYEROFALL3050:$SYNC@huggingface.co/spaces/SLAYEROFALL3050/Audio_Generator_Using_GAN main
+        run: git push -f https://SLAYEROFALL3050:$SYNC@huggingface.co/spaces/SLAYEROFALL3050/AudioGenerator main
                          
