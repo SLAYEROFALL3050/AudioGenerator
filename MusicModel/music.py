@@ -2,6 +2,7 @@
 
 # IMPORTS
 from pypianoroll import Multitrack
+import streamlit as st
 
 # DOWNLOADS
 
@@ -12,6 +13,6 @@ from pypianoroll import Multitrack
 
 def gen_audio():
     for i in range(5):
-        print(str(i))
+        st.write(str(i))
 
-    print("Generation Complete")
+    st.write("Generation Complete")
