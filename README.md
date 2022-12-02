@@ -1,6 +1,6 @@
 ---
 title: Music Generation using ML
-emoji: 🎶
+emoji: 🧐
 colorFrom: indigo
 colorTo: green
 sdk: streamlit
