@@ -1,8 +1,8 @@
 ---
 title: Music Generation using ML
 emoji: 🎶
-colorFrom: orange
-colorTo: blue
+colorFrom: indigo
+colorTo: green
 sdk: streamlit
 sdk_version: 1.10.0
 app_file: app.py
