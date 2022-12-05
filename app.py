@@ -13,4 +13,4 @@ st.write("Click the Button to Generate Audio")
 # SENTENCE BASED 
 if st.button("GENERATE"):
     st.write("Here is the Generated Audio:")
-    gen_audio()
+    st.write(gen_audio())

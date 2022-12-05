@@ -12,7 +12,8 @@ import streamlit as st
 # Spits out audio file
 
 def gen_audio():
+    to_ret = ""
     for i in range(5):
-        st.write(str(i))
+        to_ret = to_ret + str(i)
 
-    st.write("Generation Complete")
+    return to_ret
