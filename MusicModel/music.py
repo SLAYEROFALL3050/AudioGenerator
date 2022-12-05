@@ -1,4 +1,4 @@
-# https://github.com/salu133445/musegan
+# https://github.com/marcoppasini/musika
 
 # IMPORTS
 from pypianoroll import Multitrack
